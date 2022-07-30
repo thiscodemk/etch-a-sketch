@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 624px;
+    max-height: 624px;
+    margin: auto;
+}
+
+.squares {
+    display: flex;
+    border: 2px solid black;
+    height: 35px;
+    width: 35px;
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.blackBackground {
+    background-color: black;
+}
