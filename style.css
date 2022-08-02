@@ -1,17 +1,16 @@
 #container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 624px;
-    max-height: 624px;
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(var(--n,32), 1fr); /* number of column here*/
+    background-color: white;
+    border: solid black 10px;
     margin: auto;
+    
 }
 
 .squares {
-    display: flex;
     border: 2px solid black;
-    height: 35px;
-    width: 35px;
     min-width: 35px;
     min-height: 35px;
 }
